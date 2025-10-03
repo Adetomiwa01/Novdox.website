@@ -8,7 +8,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/NOVDOX_PNG.png" rel="icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,11 +37,13 @@
 
 
         
-        <div class="container-xxl position-relative p-0" >
+        <div class="container-xxl position-relative p-0">
+            <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <!-- <h1 class="m-0"><i class="fa fa-server me-3"></i>Novdox</h1> -->
-                    <img src="https://novdox.com/wp-content/uploads/2023/03/NOVDOX_PNG.png" alt="Logo" style="max-width: 200px; background-color: white; padding: 10px; border-radius: 10px;"> 
+                <a href="/" class="navbar-brand p-0">
+                    <img src="https://novdox.com/wp-content/uploads/2023/03/NOVDOX_PNG.png" 
+                         alt="Novdox Logo" 
+                         style="max-width: 180px; background-color: #fff; padding: 8px 12px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -52,229 +54,318 @@
                         <a href="#company" class="nav-item nav-link">Company</a>
                         <a href="#solutions" class="nav-item nav-link">Solutions</a>
                         <a href="https://novdox.com/" class="nav-item nav-link">Industries</a>
-                        <!-- <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="comparison.html" class="dropdown-item">Comparison</a>
-                            </div>
-                        </div> -->
                         <a href="https://novdox.com/contact/" class="nav-item nav-link">Contact</a>
                     </div>
-                    <!-- <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
-                    <a href="https://novdox.com/client-support/" class="btn btn-secondary py-2 px-4 ms-3">Client Support</a>
+                    <a href="https://novdox.com/client-support/" 
+   class="btn btn-primary rounded-pill py-2 px-4 ms-3" style="border: 1px solid; ">Client Support</a>
+
                 </div>
             </nav>
-
+        
+            <!-- Hero Section -->
             <div class="container-xxl py-5 bg-primary hero-header mb-5">
                 <div class="container my-5 py-5 px-lg-5">
-                    <div class="row g-5">
+                    <div class="row g-5 align-items-center">
+                        <!-- Left Content -->
                         <div class="col-lg-6 pt-5 text-center text-lg-start">
-                            <h1 class="display-4 text-white mb-4 animated slideInLeft">Managed IT & Digital Solutions</h1>
-                            <p class="text-white animated slideInLeft">We take the complexity out of technology so you can focus on growing your business. From IT consulting to cybersecurity, web & mobile development, and cloud services — Novdox delivers solutions that power your success.</p>
-                            <!-- <h1 class="text-white mb-4 animated slideInLeft">
-                                <small class="align-top fw-normal" style="font-size: 15px; line-height: 25px;">Starting:</small>
-                                <span>$2.49</span>
-                                <small class="align-bottom fw-normal" style="font-size: 15px; line-height: 33px;">/ Mo</small>
-                            </h1> -->
-                            <a href="https://novdox.com/contact/" class="btn btn-secondary py-sm-3 px-sm-5 me-3 animated slideInLeft">Get Started Now</a>
+                            <h1 class="display-4 fw-bold text-white mb-4 animated slideInLeft">
+                                Managed IT & Digital Solutions
+                            </h1>
+                            <p class="text-white mb-4 animated slideInLeft">
+                                We take the complexity out of technology so you can focus on growing your business. 
+                                From IT consulting to cybersecurity, web & mobile development, and cloud services — 
+                                Novdox delivers solutions that power your success.
+                            </p>
+                            <!-- CTA Buttons -->
+                            <a href="https://novdox.com/contact/" 
+                               class="btn btn-gradient py-sm-3 px-sm-5 me-3 animated slideInLeft">
+                               Get Started Now
+                            </a>
+                            <a href="#solutions" 
+                               class="btn btn-outline-light py-sm-3 px-sm-5 animated slideInLeft">
+                               Explore Solutions
+                            </a>
                         </div>
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         
-        <div class="modal fade" id="searchModal" tabindex="-1">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content" style="background: rgba(29, 40, 51, 0.8);">
-                    <div class="modal-header border-0">
-                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center justify-content-center">
-                        <div class="input-group" style="max-width: 600px;">
-                            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword">
-                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                        <!-- Right Image -->
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="Novdox Hero Image">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <!-- Custom CTA Styling -->
+        <style>
+        .btn-gradient {
+            background: linear-gradient(90deg, #DC143C, #FDD400);
+            color: #fff !important;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            border: 1px solid;
+        }
+        .btn-gradient:hover {
+            box-shadow: 0 8px 20px #DC143C;
+            transform: translateY(-2px);
+        }
+        </style>
+        
 
         
         <div class="container-xxl domain mb-5" style="margin-top: 90px;" id="solutions">
             <div class="container px-lg-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="section-title position-relative text-center mx-auto mb-4 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                            <h1 class="mb-3">Explore Our Services</h1>
-                            <p class="mb-1">
-                                Find the right solution for your business needs. Whether you’re a startup or an enterprise, we provide scalable IT solutions tailored for you.
-                            </p>
-                        </div>
-                        <div class="row g-3 wow fadeInUp justify-content-center" data-wow-delay="0.3s">
-                            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
-                                <div class="p-3 border rounded h-100">
-                                    <h5 class="fw-bold text-primary mb-2">Managed IT Services</h5>
-                                    <p class="mb-0">Proactive monitoring, support, and maintenance for your business systems.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
-                                <div class="p-3 border rounded h-100">
-                                    <h5 class="fw-bold text-primary mb-2">Cybersecurity Solutions</h5>
-                                    <p class="mb-0">Protect your business from evolving threats with advanced security frameworks.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
-                                <div class="p-3 border rounded h-100">
-                                    <h5 class="fw-bold text-primary mb-2">Web Development</h5>
-                                    <p class="mb-0">Custom websites designed to engage audiences and strengthen your brand.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
-                                <div class="p-3 border rounded h-100">
-                                    <h5 class="fw-bold text-primary mb-2">Mobile App Development</h5>
-                                    <p class="mb-0">Scalable iOS and Android apps that connect you with your customers anywhere.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
-                                <div class="p-3 border rounded h-100">
-                                    <h5 class="fw-bold text-primary mb-2">Cloud Services</h5>
-                                    <p class="mb-0">Cloud migration, management, and scalable infrastructure for your business.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
-                                <div class="p-3 border rounded h-100">
-                                    <h5 class="fw-bold text-primary mb-2">ERP & Network Solutions</h5>
-                                    <p class="mb-0">Integrated ERP and networking services to streamline your operations.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center mt-4 wow fadeInUp" data-wow-delay="0.5s">
-                            <a href="https://novdox.com/contact/" class="btn btn-primary py-3 px-5">Contact Us</a>
-                        </div>
+              <div class="row justify-content-center">
+                <div class="col-lg-10">
+                  <div class="section-title position-relative text-center mx-auto mb-4 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Explore Our Services</h1>
+                    <p class="mb-1">
+                      Find the right solution for your business needs. Whether you’re a startup or an enterprise, we provide scalable IT solutions tailored for you.
+                    </p>
+                  </div>
+                  <div class="row g-3 wow fadeInUp justify-content-center" data-wow-delay="0.3s">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div style="background:#fff; border-radius:18px; padding:28px; min-height:180px; box-shadow:0 8px 24px rgba(0,0,0,0.08); transition:all .3s ease;">
+                        <h5 style="font-weight:700; color:black; margin-bottom:10px;">Managed IT Services</h5>
+                        <p style="color:#555; font-size:15px; margin:0;">Proactive monitoring, support, and maintenance for your business systems.</p>
+                      </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div style="background:#fff; border-radius:18px; padding:28px; min-height:180px; box-shadow:0 8px 24px rgba(0,0,0,0.08); transition:all .3s ease;">
+                        <h5 style="font-weight:700; color:black; margin-bottom:10px;">Cybersecurity Solutions</h5>
+                        <p style="color:#555; font-size:15px; margin:0;">Protect your business from evolving threats with advanced security frameworks.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div style="background:#fff; border-radius:18px; padding:28px; min-height:180px; box-shadow:0 8px 24px rgba(0,0,0,0.08); transition:all .3s ease;">
+                        <h5 style="font-weight:700; color:black; margin-bottom:10px;">Web Development</h5>
+                        <p style="color:#555; font-size:15px; margin:0;">Custom websites designed to engage audiences and strengthen your brand.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div style="background:#fff; border-radius:18px; padding:28px; min-height:180px; box-shadow:0 8px 24px rgba(0,0,0,0.08); transition:all .3s ease;">
+                        <h5 style="font-weight:700; color:black; margin-bottom:10px;">Mobile App Development</h5>
+                        <p style="color:#555; font-size:15px; margin:0;">Scalable iOS and Android apps that connect you with your customers anywhere.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div style="background:#fff; border-radius:18px; padding:28px; min-height:180px; box-shadow:0 8px 24px rgba(0,0,0,0.08); transition:all .3s ease;">
+                        <h5 style="font-weight:700; color:black; margin-bottom:10px;">Cloud Services</h5>
+                        <p style="color:#555; font-size:15px; margin:0;">Cloud migration, management, and scalable infrastructure for your business.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div style="background:#fff; border-radius:18px; padding:28px; min-height:180px; box-shadow:0 8px 24px rgba(0,0,0,0.08); transition:all .3s ease;">
+                        <h5 style="font-weight:700; color:black; margin-bottom:10px;">ERP & Network Solutions</h5>
+                        <p style="color:#555; font-size:15px; margin:0;">Integrated ERP and networking services to streamline your operations.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="text-center mt-4 wow fadeInUp" data-wow-delay="0.5s" style="max-height: 10px;">
+                    <a href="https://novdox.com/contact/" class="btn btn-primary py-3 px-5" style="padding: 0px;">Contact Us</a>
+                  </div> -->
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
+          
         
 
-        <div class="container-xxl py-5" id="company">
+          <div class="container-xxl py-5" id="company" style="background:linear-gradient(180deg,#fff 0,#fbfbfc 100%);">
             <div class="container px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="section-title position-relative mb-4 pb-4">
-                            <h1 class="mb-2">Welcome to Novdox</h1>
-                        </div>
-                        <p class="mb-4">
-                            At Novdox, we simplify IT for organizations across industries. With a team of experts, 
-                            cutting-edge technology, and proven strategies, we help clients reduce costs, strengthen security, 
-                            and accelerate digital transformation.
-                        </p>
-                        <div class="row g-3">
-                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="bg-light rounded text-center p-4">
-                                    <i class="fa fa-history fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1">8+</h2>
-                                    <p class="mb-0">Years Track Record</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="bg-light rounded text-center p-4">
-                                    <i class="fa fa-project-diagram fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" >2000+</h2>
-                                    <p class="mb-0">Projects Completed</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="bg-light rounded text-center p-4">
-                                    <i class="fa fa-smile-beam fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1">98%</h2>
-                                    <p class="mb-0">Client <br/>Satisfaction</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png" alt="Novdox IT Solutions">
-                    </div>
+              <div class="row g-5 align-items-center">
+                <div class="col-lg-5 order-lg-2">
+                  <div style="border-radius:20px; overflow:hidden; box-shadow:0 20px 50px rgba(13,38,59,0.08);">
+                    <img src="img/about.png" alt="Novdox IT Solutions" style="width:100%; height:100%; object-fit:cover; display:block;">
+                  </div>
                 </div>
+          
+                <div class="col-lg-7 order-lg-1">
+                  <div style="max-width:720px;">
+                    <h1 style="font-size:2.4rem; line-height:1.05; margin-bottom:16px; font-weight:800; color:#0b2340;">Welcome to Novdox</h1>
+                    <p style="font-size:1.05rem; color:#344054; margin-bottom:24px; letter-spacing:0.1px;">
+                      We simplify IT for organisations across industries. Combining deep expertise, modern technology, and carefully designed strategies, we help you reduce costs, fortify security, and accelerate digital transformation with confidence.
+                    </p>
+          
+                    <div style="display:flex; gap:14px; align-items:stretch; flex-wrap:wrap; margin-bottom:22px;">
+                      <div style="flex:1 1 30%; min-width:150px; background:#f7fafc; border-radius:12px; padding:18px; text-align:center; box-shadow:0 8px 20px rgba(16,24,40,0.04);">
+                        <div style="width:48px;height:48px;margin:0 auto 10px;border-radius:10px;background:#eef2ff;display:flex;align-items:center;justify-content:center;color:#0d6efd;font-size:20px;">⏳</div>
+                        <div style="font-weight:700;font-size:1.25rem;color:#0b2340;">8+</div>
+                        <div style="font-size:0.9rem;color:#556174;">Years Track Record</div>
+                      </div>
+          
+                      <div style="flex:1 1 30%; min-width:150px; background:#f7fafc; border-radius:12px; padding:18px; text-align:center; box-shadow:0 8px 20px rgba(16,24,40,0.04);">
+                        <div style="width:48px;height:48px;margin:0 auto 10px;border-radius:10px;background:#fff7ed;display:flex;align-items:center;justify-content:center;color:#d97706;font-size:20px;">🏗️</div>
+                        <div style="font-weight:700;font-size:1.25rem;color:#0b2340;">2000+</div>
+                        <div style="font-size:0.9rem;color:#556174;">Projects Completed</div>
+                      </div>
+          
+                      <div style="flex:1 1 30%; min-width:150px; background:#f7fafc; border-radius:12px; padding:18px; text-align:center; box-shadow:0 8px 20px rgba(16,24,40,0.04);">
+                        <div style="width:48px;height:48px;margin:0 auto 10px;border-radius:10px;background:#ecfdf5;display:flex;align-items:center;justify-content:center;color:#059669;font-size:20px;">😊</div>
+                        <div style="font-weight:700;font-size:1.25rem;color:#0b2340;">98%</div>
+                        <div style="font-size:0.9rem;color:#556174;">Client Satisfaction</div>
+                      </div>
+                    </div>
+          
+                    <!-- <p style="color:#5b6770; margin-bottom:22px;">
+                      We partner with organisations to design pragmatic IT roadmaps — from securing your infrastructure to deploying scalable cloud and data solutions. Our client-first approach ensures practical outcomes and measurable ROI.
+                    </p> -->
+          
+                    <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+                      <a href="https://novdox.com/contact/" class="btn btn-primary" style="padding:12px 22px; border-radius:12px; font-weight:600; box-shadow:0 10px 30px rgba(13,38,59,0.08);">Get a Consultation</a>
+                      <a href="#solutions" style="color:#0b2340; text-decoration:none; padding:8px 12px; border-radius:8px; border:1px solid rgba(11,35,64,0.06);">View Services →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
+          
         
 
 
-        <div class="container-xxl py-5"> 
+          <div class="container-xxl py-5">
             <div class="container px-lg-5">
-                <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" 
+                     data-wow-delay="0.1s" style="max-width: 650px;">
                     <h1 class="mb-3">Why Choose Us</h1>
-                    <p class="mb-1">We deliver innovative and scalable IT solutions that help businesses save costs, enhance security, and achieve sustainable growth.</p>
+                    <p class="mb-1">
+                        We deliver innovative and scalable IT solutions that help businesses save costs, 
+                        enhance security, and achieve sustainable growth.
+                    </p>
                 </div>
+        
                 <div class="row gy-5 gx-4">
                     
                     <!-- Cost-effectiveness -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="position-relative shadow rounded border-top border-5 border-primary h-100">
-                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle"
-                                style="width: 45px; height: 45px; margin-top: -3px;">
-                                <i class="fa fa-money-bill-wave text-white"></i>
+                        <div class="h-100 p-4 rounded shadow-lg text-center position-relative" 
+                             style="background:#fff; border:1px solid #eee; transition:0.3s;">
+                            <div class="d-flex align-items-center justify-content-center 
+                                        bg-primary text-white rounded-circle mb-3 mx-auto"
+                                 style="width:60px; height:60px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+                                <i class="fa fa-money-bill-wave fa-lg"></i>
                             </div>
-                            <div class="text-center p-4 pt-5">
-                                <h4 class="fw-bold">Cost-effectiveness</h4>
-                                <p class="mb-0">We offer affordable IT solutions that help you reduce costs and improve your bottom line.</p>
-                            </div>
+                            <h4 class="fw-bold">Cost-effectiveness</h4>
+                            <p class="mb-0">Affordable IT solutions that cut costs and strengthen your bottom line.</p>
                         </div>
                     </div>
         
                     <!-- Innovative Technology -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="position-relative shadow rounded border-top border-5 border-secondary h-100">
-                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-secondary rounded-circle"
-                                style="width: 45px; height: 45px; margin-top: -3px;">
-                                <i class="fa fa-lightbulb text-white"></i>
+                        <div class="h-100 p-4 rounded shadow-lg text-center position-relative" 
+                             style="background:#fff; border:1px solid #eee; transition:0.3s;">
+                            <div class="d-flex align-items-center justify-content-center 
+                                        bg-secondary text-white rounded-circle mb-3 mx-auto"
+                                 style="width:60px; height:60px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+                                <i class="fa fa-lightbulb fa-lg"></i>
                             </div>
-                            <div class="text-center p-4 pt-5">
-                                <h4 class="fw-bold">Innovative Technology</h4>
-                                <p class="mb-0">We stay up-to-date with the latest technology trends and provide innovative solutions that keep you ahead of the competition.</p>
-                            </div>
+                            <h4 class="fw-bold">Innovative Technology</h4>
+                            <p class="mb-0">Cutting-edge solutions that keep you ahead of competitors.</p>
                         </div>
                     </div>
         
                     <!-- Industry Expertise -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="position-relative shadow rounded border-top border-5 border-primary h-100">
-                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle"
-                                style="width: 45px; height: 45px; margin-top: -3px;">
-                                <i class="fa fa-industry text-white"></i>
+                        <div class="h-100 p-4 rounded shadow-lg text-center position-relative" 
+                             style="background:#fff; border:1px solid #eee; transition:0.3s;">
+                            <div class="d-flex align-items-center justify-content-center 
+                                        bg-primary text-white rounded-circle mb-3 mx-auto"
+                                 style="width:60px; height:60px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+                                <i class="fa fa-industry fa-lg"></i>
                             </div>
-                            <div class="text-center p-4 pt-5">
-                                <h4 class="fw-bold">Industry Expertise</h4>
-                                <p class="mb-0">We specialize in industries such as healthcare, finance, and manufacturing, delivering tailored solutions that meet your needs.</p>
-                            </div>
+                            <h4 class="fw-bold">Industry Expertise</h4>
+                            <p class="mb-0">Tailored solutions for healthcare, finance, manufacturing, and more.</p>
                         </div>
                     </div>
         
                     <!-- Scalability -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="position-relative shadow rounded border-top border-5 border-secondary h-100">
-                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-secondary rounded-circle"
-                                style="width: 45px; height: 45px; margin-top: -3px;">
-                                <i class="fa fa-chart-line text-white"></i>
+                        <div class="h-100 p-4 rounded shadow-lg text-center position-relative" 
+                             style="background:#fff; border:1px solid #eee; transition:0.3s;">
+                            <div class="d-flex align-items-center justify-content-center 
+                                        bg-secondary text-white rounded-circle mb-3 mx-auto"
+                                 style="width:60px; height:60px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+                                <i class="fa fa-chart-line fa-lg"></i>
                             </div>
-                            <div class="text-center p-4 pt-5">
-                                <h4 class="fw-bold">Scalability</h4>
-                                <p class="mb-0">Our solutions are scalable and grow with your business, ensuring long-term value and flexibility.</p>
-                            </div>
+                            <h4 class="fw-bold">Scalability</h4>
+                            <p class="mb-0">Flexible IT solutions that grow alongside your business needs.</p>
                         </div>
                     </div>
         
                 </div>
             </div>
         </div>
+
+
+
+        <div class="container-xxl py-5" id="pricing">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" 
+                     data-wow-delay="0.1s" style="max-width: 650px;">
+                    <h1 class="mb-3">Our Pricing Plans</h1>
+                    <p class="mb-1">Choose the right plan that fits your business needs. Scalable, reliable, and cost-effective solutions for every stage.</p>
+                </div>
+        
+                <div class="row g-4">
+                    
+                    <!-- Basic Plan -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="bg-white shadow-lg rounded text-center p-4 h-100 border-top border-5 border-primary">
+                            <h4 class="fw-bold mb-3">Basic</h4>
+                            <h2 class="text-primary mb-4">$100<span class="fs-6 text-muted">/mo</span></h2>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fa fa-check text-primary me-2"></i> 1 Domain Included</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> Shared Hosting</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> 5 Email Accounts</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> Basic Security</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> 24/7 Support</li>
+                            </ul>
+                            <a href="https://novdox.com/contact/" class="btn btn-primary w-100 py-2">Get Started</a>
+                        </div>
+                    </div>
+        
+                    <!-- Standard Plan -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="bg-white shadow-lg rounded text-center p-4 h-100 border-top border-5 border-secondary">
+                            <h4 class="fw-bold mb-3">Standard</h4>
+                            <h2 class="text-secondary mb-4">$250<span class="fs-6 text-muted">/mo</span></h2>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fa fa-check text-secondary me-2"></i> 3 Domains Included</li>
+                                <li><i class="fa fa-check text-secondary me-2"></i> Cloud Hosting</li>
+                                <li><i class="fa fa-check text-secondary me-2"></i> 20 Email Accounts</li>
+                                <li><i class="fa fa-check text-secondary me-2"></i> Advanced Security & Firewall</li>
+                                <li><i class="fa fa-check text-secondary me-2"></i> Daily Backups</li>
+                                <li><i class="fa fa-check text-secondary me-2"></i> Priority 24/7 Support</li>
+                            </ul>
+                            <a href="https://novdox.com/contact/" class="btn btn-secondary w-100 py-2">Get Started</a>
+                        </div>
+                    </div>
+        
+                    <!-- Premium Plan -->
+                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="bg-white shadow-lg rounded text-center p-4 h-100 border-top border-5 border-primary">
+                            <h4 class="fw-bold mb-3">Premium</h4>
+                            <h2 class="text-primary mb-4">$500<span class="fs-6 text-muted">/mo</span></h2>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fa fa-check text-primary me-2"></i> Unlimited Domains</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> Dedicated Hosting</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> Unlimited Email Accounts</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> Enterprise Security Suite</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> Custom ERP/Cloud Integration</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> Dedicated Account Manager</li>
+                                <li><i class="fa fa-check text-primary me-2"></i> 24/7 VIP Support</li>
+                            </ul>
+                            <a href="https://novdox.com/contact/" class="btn btn-primary w-100 py-2">Get Started</a>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        
+        
         
         
 
@@ -342,7 +433,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --
 
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container px-lg-5">
@@ -493,6 +584,7 @@
 
             <div class="col-lg-5 col-md-12">
                 <div class="row gy-5 g-4">
+                    <!-- Solutions -->
                     <div class="col-md-6">
                         <h5 class="fw-bold text-white mb-4">Solutions</h5>
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/solutions/managed-services/">Managed Services</a>
@@ -501,23 +593,22 @@
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/solutions/web-development/">Web Development</a>
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/solutions/mobile-development/">Mobile Development</a>
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/solutions/cloud-services/">Cloud Services</a>
-                        
                     </div>
-
+            
+                    <!-- Company -->
                     <div class="col-md-6">
                         <h5 class="fw-bold text-white mb-4">Company</h5>
-                        <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/about/">About us</a>
-                        <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/why-us/">Why us</a>
+                        <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/about/">About Us</a>
+                        <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/why-us/">Why Us</a>
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/team/">Team</a>
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/careers/">Careers</a>
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/partnerships/">Partners & Certifications</a>
                         <a class="btn btn-link text-white-50 d-block ps-0" href="https://novdox.com/reviews-awards/">Reviews & Awards</a>
-                        
-                        
                     </div>
                 </div>
             </div>
-
+            
+            <!-- Contact Info -->
             <div class="col-md-6 col-lg-3">
                 <h5 class="fw-bold text-white mb-4">Get In Touch</h5>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Lagos, Nigeria</p>
@@ -526,47 +617,43 @@
                 <br/>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>081 4095 5959</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>hello@novdox.com</p>
-                <!-- <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social me-1" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social me-1" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-outline-light btn-social me-1" href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social me-1" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social me-1" href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                    <a class="btn btn-outline-light btn-social" href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                </div> -->
             </div>
-
+            
+            <!-- Consultation Form -->
             <div class="col-md-6 col-lg-4 mt-lg-n5">
-                <div class="bg-light rounded" style="padding: 30px;">
+                <div class="bg-light rounded shadow p-4">
+                    <h6 class="fw-bold text-dark mb-3">Schedule a Consultation</h6>
                     <input type="text" class="form-control border-0 py-2 mb-2" placeholder="Name">
                     <input type="email" class="form-control border-0 py-2 mb-2" placeholder="Email">
                     <textarea class="form-control border-0 mb-2" rows="2" placeholder="Message"></textarea>
-                    <button class="btn btn-primary w-100 py-2">Schedule Consultation</button>
-                    <div class="mt-3 text-white-50 small">
-                        <div class="mb-1">Reviewed on</div>
-                        <div class="mb-2">★★★★★ 31 Reviews</div>
-                        <div>Lagos, Nigeria · Dubai, UAE · London, UK</div>
+                    <button class="btn btn-primary w-100 py-2">Submit</button>
+                    <div class="mt-3 small text-muted">
+                        <!-- <div class="mb-1">Reviewed on</div> --> <a href="https://clutch.co/profile/red-key-solutions#summary" ><img src="./img/clutch.png"></a>
+                        <!-- <div class="mb-2 text-warning">★★★★★ 31 Reviews</div> -->
+                        <div>Lagos · Dubai · London</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container px-lg-5">
-        <div class="copyright">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; 2025 Novdox. All Rights Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="footer-menu">
-                        <a href="https://novdox.com/terms-conditions/" class="text-white-50 me-3">Terms & Conditions</a>
-                        <a href="https://novdox.com/privacy-policy/" class="text-white-50">Privacy Policy</a>
+            </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="container px-lg-5">
+                <div class="copyright border-top pt-3 mt-4">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                            &copy; 2025 Novdox. All Rights Reserved.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="https://novdox.com/terms-conditions/" class="text-white-50 me-3">Terms & Conditions</a>
+                                <a href="https://novdox.com/privacy-policy/" class="text-white-50">Privacy Policy</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            
 </div>
 
         
